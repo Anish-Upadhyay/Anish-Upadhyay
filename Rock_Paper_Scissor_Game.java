@@ -45,13 +45,13 @@ public class Rock_Paper_Scissor_Game {
     }
     static boolean moveWins(String move, String computerMove) {
         if (move.equals("rock")) {
-            return computerMove.equals("Paper");
+            return computerMove.equals("scissors");
         }
         else if (move.equals("paper")) {
-            return computerMove.equals("Scissors");
+            return computerMove.equals("rock");
         }
         else {
-            return computerMove.equals("Rock");
+            return computerMove.equals("paper");
         }
     }
 }
